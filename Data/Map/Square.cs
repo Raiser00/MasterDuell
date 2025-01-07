@@ -1,4 +1,4 @@
-﻿namespace MasterDuell.Data.Map;
+﻿namespace MasterDuell.Data;
 public class Square //(a completer)
 {
     public Biomes SquareBiome { get; set; }
