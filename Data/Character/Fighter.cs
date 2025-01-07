@@ -1,9 +1,9 @@
-﻿namespace MasterDuell.Data.Character
+﻿namespace MasterDuell.Data;
+
+public class Fighter : Character
 {
-    public class Fighter : Character
-    {
-        //point de vie
-        public override int MaxHitPoints { get; set; } = 30;
-        public override int CurrentHitPoints { get; set; } = 30;
-    }
+    //point de vie
+    public override int MaxHitPoints { get; set; } = 30;
+    public override int CurrentHitPoints { get; set; } = 30;
 }
+;

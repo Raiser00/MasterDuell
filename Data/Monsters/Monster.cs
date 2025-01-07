@@ -11,6 +11,10 @@ public abstract class Monster
     //param de combat (a completer)
     public MonsterHit? MonsterHit { get; set; }
     public abstract MonsterHit[] HitTable { get; set; }
+    public abstract int XpGranted { get; set; }
+    public abstract string fightImgUrl { get; set; }
+    public abstract TypeOfMonster MonsterType { get; set; }
+    
 
     //fonction combats(a completer)
     public void TakeDamage(int damageReceived)
@@ -20,6 +24,7 @@ public abstract class Monster
     //selection d'un objet ou de la vie au monster(a completer)
     //selection d'une attaque du monster(a completer)
     //fonction d'attaque du monster (a completer)
+
 
 
 }

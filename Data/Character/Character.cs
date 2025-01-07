@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace MasterDuell.Data.Character;
+namespace MasterDuell.Data;
 
 public abstract class Character
 {
