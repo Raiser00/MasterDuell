@@ -25,6 +25,7 @@ public abstract class Character
     public abstract int CurrentHitPoints { get; set; }
     //Parametre de gestion d'objets
     public int Coins { get; private set; } = 10;
+    
     // param a completer
     public string MapSprite { get; set; }
     public int CollectPosI = 0;
@@ -47,6 +48,14 @@ public abstract class Character
     {
         CurrentHitPoints = MaxHitPoints;
         IsRested = true;
+    }
+
+    //fonction baguarre
+    public virtual string Hit(Monster target)
+    {
+        string s = "";
+
+        
     }
 }
 

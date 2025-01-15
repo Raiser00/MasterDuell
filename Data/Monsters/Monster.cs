@@ -24,7 +24,7 @@ public abstract class Monster
     //selection d'un objet ou de la vie au monster(a completer)
     //selection d'une attaque du monster(a completer)
     //fonction d'attaque du monster (a completer)
-
+    public 
 
 
 }
